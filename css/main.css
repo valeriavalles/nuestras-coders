@@ -8,43 +8,65 @@ img {
     margin: 15px;
 }*/
 body {
-    margin: 60px;
-    background-color: rgb(216, 214, 209)
+    
+    
+    position: relative;
+    bottom: 15px;
+    background-color: rgb(216, 214, 209);
+    
 }
 header {
+   
+    position: relative;
+    bottom: -30px;
+    width: 250px;
     margin: 40px;
-    margin-bottom: 20px;
+    left: 200px;
+  
 }
+#caja {
+    margin: 150px;
+    position: relative;
+    left: 100px;
+    top: -100px;
 
+
+}
 
 
 .raya {
+    position: relative;
     width:100px;
     height:4px ;
     background: black;
-     margin-left: 40px;
+     margin-left: 50px;
+     left:200px ;
 }
 .imagen {
-    width:320px;
-    height:320px;
+    
+    width:200px;
+    height:200px;
     position:relative; 
     float: left; 
-    margin: 40px;
-    left:100 px;
+    margin: 20px;
+    left:50 px;
 }
 img {
-    width: 320px;
-    height: 320px ;
+    
+    width: 200px;
+    height: 200px ;
 }
 .imagen>div
 {
+ 
     position: relative;
     bottom:30px;
-    left: 170px;
+    left: 50px;
     color:#fff;
     background-color:#000;
-    width:150px ;
+    width:145px ;
     height: 25px;
+    font-weight: 300px;
    /* padding:2px 10px;*/
     opacity:0.6;
    /* font-weight:bold;*/
