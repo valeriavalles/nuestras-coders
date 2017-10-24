@@ -7,25 +7,29 @@ img {
     height: 380px;
     margin: 15px;
 }*/
-
+body {
+    margin: 60px;
+    background-color: rgb(216, 214, 209)
+}
+header {
+    margin: 40px;
+    margin-bottom: 20px;
 }
 
-#caja {
-    display:inline-block;
-    position: absolute;
-    margin: 20em ; 
-}
+
+
 .raya {
     width:100px;
-    height:3px ;
+    height:4px ;
     background: black;
+     margin-left: 40px;
 }
 .imagen {
     width:320px;
     height:320px;
     position:relative; 
     float: left; 
-    margin: 20px;
+    margin: 40px;
     left:100 px;
 }
 img {
@@ -44,4 +48,5 @@ img {
    /* padding:2px 10px;*/
     opacity:0.6;
    /* font-weight:bold;*/
+   
 }
